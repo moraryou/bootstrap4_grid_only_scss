@@ -1,9 +1,14 @@
 # Bootstrap 4(alpha 6) SCSS grid only - 24 columns
 
+Generate css grid file in ./dist folder
+`npm i --save-dev`
+for development: `gulp build`
+for production: `gulp build --type=prod`
+
+## Bootstrap 4 docs
 [Detailed docs here](https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
 
 ## media queries from docs
-
 ```
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
