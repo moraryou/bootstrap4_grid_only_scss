@@ -1,9 +1,9 @@
 # Bootstrap 4(alpha 6) SCSS grid only - 24 columns
 
-Generate css grid file in ./dist folder
-`npm i --save-dev`
-for development: `gulp build`
-for production: `gulp build --type=prod`
+Build SCSS grid files ./dist folder<br/>
+install gulp `npm i --save-dev`<br/>
+for development: `gulp build`<br/>
+for production: `gulp build --type=prod`<br/>
 
 ## Bootstrap 4 docs
 [Detailed docs here](https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints)
