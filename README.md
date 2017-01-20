@@ -1,7 +1,7 @@
 # Bootstrap 4(alpha 6) SCSS grid only - 24 columns
 
-install gulp `npm i --save-dev`<br/>
-generate SCSS grid files in ./dist folder<br/>
+install build tool `npm i --save-dev`<br/>
+generate SCSS bootstrap 4 grid in ./dist folder<br/>
 * for development: `gulp build`<br/>
 * for production: `gulp build --type=prod`<br/>
 
