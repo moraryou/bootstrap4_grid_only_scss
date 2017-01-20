@@ -22,7 +22,7 @@ const isProd = (gutil.env.type === 'prod') ? true : false;
 
 // SCSS
 gulp.task('compile-scss', () => {
-  return gulp.src('./scss/style.scss')
+  return gulp.src('./grid_only/main.scss')
     .pipe(gulpif(!isProd, sourcemaps.init()))
     .pipe(bulkSass())
     .pipe(sass())
